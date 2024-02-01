@@ -13,7 +13,10 @@ initialisation_ du projet :
             ✔ index.js @done(24-02-01 11:14)
 
 Creation du User : 
-    ☐ userModels @started(24-02-01 11:15)
-    ☐ userController @started(24-02-01 11:15)
-    ☐ userRouter @started(24-02-01 11:15)
+    ✔ userModels @started(24-02-01 11:15) @done(24-02-01 14:05) @lasted(2h50m23s)
+    ✔ userController @started(24-02-01 11:15) @done(24-02-01 14:05) @lasted(2h50m23s)
+    ✔ userRouter @started(24-02-01 11:15) @done(24-02-01 14:05) @lasted(2h50m23s)
+
+Creation du middleware :
+    ☐ middleware @started(24-02-01 13:30)
 
