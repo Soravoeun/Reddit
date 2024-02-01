@@ -1,0 +1,14 @@
+initialisation_ du projet :
+    ✔ npm i @done(24-02-01 10:57)
+    ✔ npm i mongoose bcryptjs jsonwebtoken @done(24-02-01 10:57)
+    ✔ npm i express nodemon (rafraîchir le serveur) @done(24-02-01 10:57)
+    ✔ npm i backpack-core express nodemon pug @done(24-02-01 10:57)
+    ✔ Npm i volleyball @done(24-02-01 10:57)
+    ✔ npm i dotenv @done(24-02-01 10:57)
+    
+    A la racine : 
+        ✔ .env @done(24-02-01 10:58)
+        ✔ .gitignore @done(24-02-01 10:58)
+        ✔ src : @done(24-02-01 10:58)
+            ✔ index.js @done(24-02-01 10:58)
+
