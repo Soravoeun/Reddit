@@ -20,3 +20,17 @@ Creation du User :
 Creation du middleware :
     ✔ middleware @started(24-02-01 13:30) @done(24-02-01 16:01) @lasted(2h31m22s)
 
+Creation du Post :
+    ✔ postModel @started(23-02-02 09:35) @done(24-02-02 09:36) @lasted(1y1m17s)
+    ✔ postController @started(23-02-02 09:35) @done(24-02-02 09:36) @lasted(1y1m17s)
+    ✔ postRouter @started(23-02-02 09:35) @done(24-02-02 09:36) @lasted(1y1m17s)
+
+Creation du commentaire :
+    ✔ commentaireModel @started(24-02-02 09:36) @done(24-02-02 09:37) @lasted(1m19s)
+    ☐ commentaireController @started(24-02-02 09:36)
+    ☐ commentaireRouter @started(24-02-02 09)
+
+Creation du subReddit : 
+    ☐ subRedditModel @started(24-02-02 20:24)
+    ☐ subRedditController @started(24-02-02 20:25)
+    ☐ subRedditRouter @started(24-02-02 20:25)

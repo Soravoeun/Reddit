@@ -6,11 +6,12 @@ const postSchema = new Schema({
   content: { type: String },
   author: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
   comments: [
-    {
-      id: { type: mongoose.Schema.Types.ObjectId },
-      author: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-      content: { type: String },
-    },
+    { type: mongoose.Schema.Types.ObjectId, ref: "Commentaire" },
+    // {
+    //   id: { type: mongoose.Schema.Types.ObjectId },
+    //   author: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+    //   content: { type: String },
+    // },
   ],
 });
 
