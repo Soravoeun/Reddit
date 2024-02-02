@@ -9,6 +9,7 @@ const userSchema = new Schema({
     required: true,
     min: [6, "must be at least 6 characters"],
   },
+  role: { type: String, default: "user" },
 });
 
 //ajout dans le schema le moyen de caché le password avec salt et hash de bcrypt

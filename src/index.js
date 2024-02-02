@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import { userRouter } from "./routes/userRoute";
+import { postRouter } from "./routes/postRoute";
 dotenv.config();
 
 const app = express();
@@ -20,7 +21,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => res.send("Welcome to the API of Reddit !!!"));
-app.use('/user', userRouter)
+app.use('/user', userRouter);
+app.use('/post', postRouter);
 
 app.listen(port, () =>
   console.log(`[SERVER] is running on http://localhost:${port}`)
