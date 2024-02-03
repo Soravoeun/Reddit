@@ -123,13 +123,18 @@ export const deleteOneCommentaire = async (req, res) => {
   }
 
   try {
+    // on retire le commentaire du poste (en n'incluant pas celui avec id trouvé)
+    findOnePost.comments = findOnePost.comments.filter(
+      (item) => item.toString() !== commentId
+    );
+    console.log(
+      findOnePost.comments.filter((item) => item.toString() !== commentId)
+    );
+    console.log(findOnePost.comments);
+    await findOnePost.save();
+
     // supression du commentaire
     const removeCommentaire = await Commentaire.findByIdAndDelete(commentId);
-
-    // on retire le commentaire du poste (en n'incluant pas celui avec id trouvé)
-    findOnePost.comments = findOnePost.comments
-      .filter((item) => item !== commentId)
-      findOnePost.save();
 
     if (!removeCommentaire) {
       return res
